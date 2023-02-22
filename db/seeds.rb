@@ -16,8 +16,14 @@ more_movies = [
     {:title => 'Nomadland', :rating => 'R',
       :release_date => '19-Feb-2021'},
     {:title => 'CODA', :rating => 'PG-13',
-      :release_date => '13-Aug-2021'}
-  ]
+      :release_date => '13-Aug-2021'},
+    {:title => 'IT', :rating => 'PG-13',
+       :release_date => '8-Sep-2017'},
+    {:title => 'Barfi', :rating => 'PG-13',
+        :release_date => '14-Sep-2012'},
+    {:title => 'Anjanna Anjanni', :rating => 'PG-13',
+        :release_date => '1-Oct-2010'},
+]
   
   more_movies.each do |movie|
     Movie.create!(movie)
